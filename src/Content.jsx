@@ -59,16 +59,16 @@
                         <div style={{textAlign:'center'}}><h1>ALL YOU NEED</h1></div>
                         <div className={''} style={{padding:30}}>
                         <div className={'row'} style={{fontSize:25}}>
-                            <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
-                            <div className={'col-sm-9 col-md-9'}>Your smart phone</div>
+                            <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
+                            <div className={'col-xs-9 col-sm-9 col-md-9'}>Your smart phone</div>
                         </div>
                             <div className={'row'} style={{fontSize:25}}>
-                                <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
-                                <div className={'col-sm-9 col-md-9'}>Good internet connection</div>
+                                <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
+                                <div className={'col-xs-9 col-sm-9 col-md-9'}>Good internet connection</div>
                             </div>
                             <div className={'row'} style={{fontSize:25}}>
-                                <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
-                                <div className={'col-sm-9 col-md-9'}>Willingness to learn and implement</div>
+                                <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
+                                <div className={'col-xs-9 col-sm-9 col-md-9'}>Willingness to learn and implement</div>
                             </div>
                         </div>
                         </div>
@@ -76,20 +76,20 @@
                             <div style={{textAlign:'center'}}><h1>WHAT THIS IS NOT</h1></div>
                             <div className={''} style={{padding:30}}>
                                 <div className={'row'} style={{fontSize:25}}>
-                                    <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
-                                    <div className={'col-sm-9 col-md-9'}>This is not Multi-Level marketing</div>
+                                    <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
+                                    <div className={'col-xs-9 col-sm-9 col-md-9'}>This is not Multi-Level marketing</div>
                                 </div>
                                 <div className={'row'} style={{fontSize:25}}>
-                                    <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
-                                    <div className={'col-sm-9 col-md-9'}>This is not a Ponzi, Pyramid or any Referral Scheme</div>
+                                    <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
+                                    <div className={'col-xs-9 col-sm-9 col-md-9'}>This is not a Ponzi, Pyramid or any Referral Scheme</div>
                                 </div>
                                 <div className={'row'} style={{fontSize:25}}>
-                                    <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
-                                    <div className={'col-sm-9 col-md-9'}>You don't need to rent a shop or office</div>
+                                    <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
+                                    <div className={'col-xs-9 col-sm-9 col-md-9'}>You don't need to rent a shop or office</div>
                                 </div>
                                 <div className={'row'} style={{fontSize:25}}>
-                                    <div className={'col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
-                                    <div className={'col-sm-9 col-md-9'}>You dont need to create any product</div>
+                                    <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'red'}}>&Chi;</b></h2></div>
+                                    <div className={'col-xs-9 col-sm-9 col-md-9'}>You dont need to create any product</div>
                                 </div>
                             </div>
                         </div>
@@ -105,10 +105,10 @@
                             <div className={`enroll-whatsapp row`}
                                  style={{color:'white', cursor:'pointer'}} onClick={(event)=>{event.preventDefault()
                                 location.href='http://Wa.me/2348087141250'}}>
-                                <div className={'col-sm-3 col-md-3'}>
+                                <div className={'col-xs-3 col-sm-3 col-md-3'}>
                                     <img className={'whatsapp-logo-2'} src={'./image/whatsappp.png'} alt={'whatsapp'}/>
                                 </div>
-                                <div className={'col-sm-8 col-md-8'}>
+                                <div className={'col-xs-8 col-sm-8 col-md-8'}>
                                     <h4>ENROLL NOW FOR THE MASTERCLASS</h4>
                                 </div>
                             </div>
@@ -230,10 +230,10 @@
                     location.href='http://Wa.me/2348087141250'}}
                   onMouseEnter={()=>this.setState({animation2:'animate__pulse'})}
                   onMouseLeave={()=>this.setState({animation2:''})}>
-                 <div className={'col-sm-3 col-md-3'}>
+                 <div className={'col-xs-3 col-sm-3 col-md-3'}>
                         <img className={'whatsapp-logo'} src={'./image/whatsappp.png'} alt={'whatsapp'}/>
                  </div>
-                 <div className={'col-sm-8 col-md-8'}>
+                 <div className={'col-xs-8 col-sm-8 col-md-8'}>
                     <h4 className={'whatsapp-logo-text'}>JOIN THE MASTERCLASS NOW</h4>
                  </div>
              </div>
