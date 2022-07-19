@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang = "eng">
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Finlandica|Averia+Serif+Libre|Noto+Serif|Tangerine|Sofia|Roboto|Open+Sans|Mea+Culpa|Imperial+Script|Gwendolyn">
+    <link rel= 'stylesheet' href='./bootstrap/css/bootstrap.min.css'>
+    <link rel= 'stylesheet' href='./animation/animate.min.css'>
+    <style>
+        div div .glow {
+            font-size: 80px;
+            color: black;
+            text-align: center;
+        }
+        div div .aboutsec{
+            font-family:'Averia Serif Libre', cursive;
+        }
+        a:hover{
+            transform:scale(1.2,1.2);
+        }
+        html,body{
+            width:100%;
+            height:100%;
+            overflow-x: hidden;
+            text-decoration: none;
+        }
+        body{
+            position:relative;
+        }
+        * {
+            margin:0;
+            padding: 0;
+        }
+
+
+        @media only screen and (min-width:925px) {
+            .first-page{
+                padding:1%;
+            }
+            div div div div .glow {
+                height: 240px;
+                text-align: justify;
+                font-family:'Averia Serif Libre', cursive;
+                font-size: 30px;
+                padding-top: 80px;
+                color:white;
+                padding-left: 20px;
+            }
+            .second-line{
+                padding-left: 30px;
+                font-style: italic;
+            }
+            div .arrglow{
+                padding:20px;
+            }
+            div .intro{
+                background-color: midnightblue;
+                border-radius: 15px;
+            }
+            .contents{
+                width:62%;
+                padding-top: 40px;
+                font-family: 'Finlandica', cursive;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            .info-container{
+                display: flex;
+                justify-content: center;
+                padding: 50px;
+            }
+            .info-panel{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width:50%;
+                height:150px;
+                cursor: pointer;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                font-family: cursive;
+                transform: scale(1.2,1.2);
+                box-shadow:15px 15px 20px black;
+            }
+            .cash-image{
+                width:11%;
+                height:auto;
+            }
+            .contentcont{
+                padding:25px;
+            }
+            .second-panel{
+                border-radius: 15px;
+                padding-top:30px;
+                margin:10px 20px;
+            }
+            .first-para{
+                padding-top: 30px;
+            }
+            div .imgcont{
+                position:absolute;
+                z-index: 100;
+                width:40%;
+                left:69%;
+                top:382px;
+                padding-top:50px;
+            }
+            div span .image{
+                height:auto;
+                width:67%;
+                margin-bottom:10px;
+                border-radius: 10px;
+            }
+            div .motivate{
+                font-size: 35px;
+                color:black;
+                width:67%;
+                height:auto;
+            }
+            .join-whatsapp{
+                text-align:center;
+                width:60%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 30px;
+                padding:10px;
+                border-radius: 10px;
+                margin-left: 20px;
+            }
+            .enroll-whatsapp-cont{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .enroll-whatsapp{
+                text-align: center;
+                width:70%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 8px;
+                padding:10px;
+                margin-bottom: 40px;
+            }
+            .arrow{
+                width:5%;
+            }
+            .whatsapp-logo{
+                width:100%;
+                height:auto;
+            }
+            .whatsapp-logo-2{
+                width:50%;
+                height:auto;
+                background-color: limegreen;
+            }
+            .fixed-image{
+                position:fixed;
+                top:85%;
+                width:3%;
+                height:auto;
+                margin:1%;
+                border-radius:10px;
+                cursor: pointer;
+            }
+            .style-1{
+                left:40%;
+            }
+            .style-2{
+                left:50%;
+            }
+            .style-3{
+                left:60%;
+            }
+            .carousel{
+                width:100%;
+                height:550px
+            }
+            .m-aboutcont{
+                padding:20px;
+            }
+        }
+
+
+        @media only screen and (min-width:600px) and (max-width: 925px){
+            .first-page{
+                padding:1%;
+            }
+            div div div div .glow {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 240px;
+                text-align: center;
+                font-family:'Averia Serif Libre', cursive;
+                font-size: 30px;
+                color:white;
+            }
+            .second-line{
+                font-style: italic;
+            }
+            div .arrglow{
+                padding:20px;
+            }
+            div .intro{
+                background-color: midnightblue;
+                border-radius: 15px;
+            }
+            .contents{
+                width:62%;
+                padding-top: 40px;
+                font-family: 'Finlandica', cursive;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            .info-container{
+                display: flex;
+                justify-content: center;
+                padding: 50px;
+            }
+            .info-panel{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width:95%;
+                height:150px;
+                cursor: pointer;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                font-family: cursive;
+                box-shadow:15px 15px 20px black;
+            }
+            .cash-image{
+                width:20%;
+                height:auto;
+            }
+            .contentcont{
+                padding:25px;
+            }
+            .second-panel{
+                border-radius: 15px;
+                padding-top:30px;
+                margin:10px 20px;
+            }
+            .first-para{
+                padding-top: 30px;
+            }
+            div .imgcont{
+                position:absolute;
+                z-index: 100;
+                width:40%;
+                left:69%;
+                top:382px;
+                padding-top:50px;
+            }
+            div span .image{
+                height:auto;
+                width:67%;
+                margin-bottom:10px;
+                border-radius: 10px;
+            }
+            div .motivate{
+                font-size: 30px;
+                color:black;
+                width:67%;
+                height:auto;
+            }
+            .join-whatsapp{
+                text-align:justify;
+                width:70%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 30px;
+                padding:10px;
+                border-radius: 10px;
+                margin-left: 5px;
+            }
+            .enroll-whatsapp-cont{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .enroll-whatsapp{
+                text-align: center;
+                width:90%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 8px;
+                padding:10px;
+                margin-bottom: 40px;
+            }
+            .arrow{
+                width:10%;
+            }
+            .whatsapp-logo{
+                width:100%;
+                height:auto;
+            }
+            .whatsapp-logo-text{
+                font-size: 14px;
+            }
+            .whatsapp-logo-2{
+                width:50%;
+                height:auto;
+                background-color: limegreen;
+            }
+            .fixed-image{
+                position:fixed;
+                top:85%;
+                width:5%;
+                height:auto;
+                margin:1%;
+                border-radius:10px;
+                cursor: pointer;
+            }
+            .style-1{
+                left:30%;
+            }
+            .style-2{
+                left:45%;
+            }
+            .style-3{
+                left:60%;
+            }
+            .carousel{
+                width:100%;
+                height:550px
+            }
+            .m-aboutcont{
+                margin-top:70px;
+                padding-left:20px;
+                padding-right:20px;
+            }
+        }
+
+        @media only screen and (max-width:600px){
+            .first-page{
+                padding:1%;
+            }
+            div div div div .glow {
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 240px;
+                text-align: center;
+                font-family:'Averia Serif Libre', cursive;
+                font-size: 30px;
+                color:white;
+            }
+            .second-line{
+                font-style: italic;
+            }
+            div .arrglow{
+                padding:20px;
+            }
+            div .intro{
+                background-color: midnightblue;
+                border-radius: 15px;
+            }
+            .contents{
+                width:62%;
+                padding-top: 40px;
+                font-family: 'Finlandica', cursive;
+                padding-left: 20px;
+                font-size: 20px;
+            }
+            .info-container{
+                display: flex;
+                justify-content: center;
+                padding: 50px;
+            }
+            .info-panel{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width:95%;
+                height:150px;
+                cursor: pointer;
+                background-color: whitesmoke;
+                border-radius: 20px;
+                font-family: cursive;
+                box-shadow:15px 15px 20px black;
+            }
+            .cash-image{
+                width:20%;
+                height:auto;
+            }
+            .contentcont{
+                padding:25px;
+            }
+            .second-panel{
+                border-radius: 15px;
+                padding-top:30px;
+                margin:10px 20px;
+            }
+            .first-para{
+                padding-top: 30px;
+            }
+            div .imgcont{
+                position:absolute;
+                z-index: 100;
+                width:40%;
+                left:69%;
+                top:382px;
+                padding-top:50px;
+            }
+            div span .image{
+                height:auto;
+                width:67%;
+                margin-bottom:10px;
+                border-radius: 10px;
+            }
+            div .motivate{
+                font-size: 30px;
+                color:black;
+                width:67%;
+                height:auto;
+            }
+            .join-whatsapp{
+                text-align:justify;
+                width:70%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 30px;
+                padding:10px;
+                border-radius: 10px;
+                margin-left: 5px;
+            }
+            .enroll-whatsapp-cont{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .enroll-whatsapp{
+                text-align: center;
+                width:90%;
+                height:auto;
+                background-color: limegreen;
+                font-family: cursive;
+                margin-top: 8px;
+                padding:10px;
+                margin-bottom: 40px;
+            }
+            .arrow{
+                width:10%;
+            }
+            .whatsapp-logo{
+                width:100%;
+                height:auto;
+            }
+            .whatsapp-logo-text{
+                font-size: 14px;
+            }
+            .whatsapp-logo-2{
+                width:50%;
+                height:auto;
+                background-color: limegreen;
+            }
+            .fixed-image{
+                position:fixed;
+                top:85%;
+                width:5%;
+                height:auto;
+                margin:1%;
+                border-radius:10px;
+                cursor: pointer;
+            }
+            .style-1{
+                left:30%;
+            }
+            .style-2{
+                left:45%;
+            }
+            .style-3{
+                left:60%;
+            }
+            .carousel{
+                width:100%;
+                height:550px
+            }
+            .m-aboutcont{
+                margin-top:70px;
+                padding-left:20px;
+                padding-right:20px;
+            }
+            div .m-contactcont{
+                margin-top:94px;
+                margin-left:5px;
+                margin-right:5px;
+            }
+        }
+    </style>
+<meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1, user-scalable= no">
+<title> Marketing with Gabriel | Home </title>
+</head>
+<body>
+<div id="container"></div>
+<script src= '/assets/vendor.js'></script>
+<script src='/assets/app.js'></script>
+</body>
+</html>
