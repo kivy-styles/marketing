@@ -1,16 +1,18 @@
 {
-  "name": "restaurant-picker",
+  "name": "expertnaire",
   "version": "1.0.0",
-  "description": "a website for assisting in picking a place to eat",
+  "description": "an affiliate marketing website",
   "main": "./static/app.bundle.js",
   "scripts": {
-    "start": "nodemon -w dist dist/server.js --source-map",
-    "serve": "webpack serve --hot",
-    "watch": "babel server --presets es2015 --out-dir dist --watch"
+    "start": "webpack-dev-server --port $PORT --host 0.0.0.0"
   },
   "keywords": [
     "Joseph"
   ],
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.5.0"
+  },
   "author": "Joseph",
   "license": "ISC",
   "dependencies": {
