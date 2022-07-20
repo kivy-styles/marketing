@@ -31,7 +31,7 @@ const App= ()=>
                         <Route path='home' element={<Content/>}/>
                         <Route path='about' element={<About/>}/>
                     </Routes>
-                    <footer className={'end'} style={{textAlign:'center', backgroundColor:'black', color:'white',
+                    <footer className={'end'} style={{textAlign:'center', backgroundColor:'midnightBlue', color:'white',
                     fontFamily:'averiaSerifLibre', marginTop:100, borderRadius: 10, padding:20, fontSize:18}}>
                         <div>Disclaimer</div>
                         <div>Key informations that may have been provided on this website are from the official Expertnaire website. For
