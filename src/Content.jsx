@@ -36,7 +36,7 @@
                              onMouseLeave={()=>this.setState({animation:''})}
                              onClick={()=>this.setState({show:true})}>
                             <img className='cash-image' src='./image/cash.png' style={{paddingBottom:5}}/>
-                            <div style={{textDecoration:'underline'}}>How Do I Earn?</div>
+                            <div><b>How Do I Earn?</b></div>
                         </div>
                         </div>
                     </div>
