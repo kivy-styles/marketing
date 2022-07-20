@@ -230,10 +230,10 @@
                     location.href='http://Wa.me/2348087141250'}}
                   onMouseEnter={()=>this.setState({animation2:'animate__pulse'})}
                   onMouseLeave={()=>this.setState({animation2:''})}>
-                 <div className={'col-xs-3 col-sm-3 col-md-3'}>
+                 <div className={'col-sm-3 col-md-3 logo-cont'}>
                         <img className={'whatsapp-logo'} src={'./image/whatsappp.png'} alt={'whatsapp'}/>
                  </div>
-                 <div className={'col-xs-8 col-sm-8 col-md-8'}>
+                 <div className={'col-sm-8 col-md-8 text-cont'}>
                     <h4 className={'whatsapp-logo-text'}>JOIN THE MASTERCLASS NOW</h4>
                  </div>
              </div>
