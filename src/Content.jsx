@@ -225,7 +225,7 @@
                  He is great because failure hasn't stopped him<br/></b>
                   <span>~Confucius</span>
              </div>
-             <div className={`enroll-whatsapp row animate__animated animate__infinite ${this.state.animation2}`}
+             <div className={`join-whatsapp row animate__animated animate__infinite ${this.state.animation2}`}
                   style={{color:'white', cursor:'pointer'}} onClick={(event)=>{event.preventDefault()
                     location.href='http://Wa.me/2348087141250'}}
                   onMouseEnter={()=>this.setState({animation2:'animate__pulse'})}
