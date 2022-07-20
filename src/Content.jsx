@@ -63,12 +63,12 @@
                             <div className={'col-xs-8 col-sm-9 col-md-9'}>Your smart phone</div>
                         </div>
                             <div className={'row'} style={{fontSize:25}}>
-                                <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
-                                <div className={'col-xs-8 col-sm-9 col-md-9'}>Good internet connection</div>
+                                <div className={'col-xs-1 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
+                                <div className={'col-xs-9 col-sm-9 col-md-9'}>Good internet connection</div>
                             </div>
                             <div className={'row'} style={{fontSize:25}}>
-                                <div className={'col-xs-2 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
-                                <div className={'col-xs-8 col-sm-9 col-md-9'}>Willingness to learn and implement</div>
+                                <div className={'col-xs-1 col-sm-2 col-md-2'}><h2><b style={{color:'green'}}>&#10003;</b></h2></div>
+                                <div className={'col-xs-9 col-sm-9 col-md-9'}>Willingness to learn and implement</div>
                             </div>
                         </div>
                         </div>
