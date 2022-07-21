@@ -40,8 +40,7 @@
                         </div>
                         </div>
                     </div>
-                    <Alert show={this.state.show} variant='info' style={{position:'absolute', fontSize:16, borderRadius:15}}
-                           onClose={()=>this.setState({show:false})} dismissible>
+                    <Alert show={this.state.show} variant='info' style={{position:'absolute', fontSize:16, borderRadius:15}}>
                         As an Expertnaire affiliate, you earn up to 50% commission on every digital product you sell.
                         Expertnaire offers a vast number of digital packages with varying prices. Once you
                         register as an affiliate marketer, you immediately have access to all of these digital products for
