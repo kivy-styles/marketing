@@ -24,7 +24,7 @@
                <div className='contents'>
                 <Card style={{borderRadius:15}}>
                     <div className='contentcont'>
-                        Hey there!! My name is AKINSOLA GABRIEL, an Expertnaire Affiliate. I'm here to tell you on you
+                        Hey there!! My name is AKINSOLA GABRIEL, an Expertnaire Affiliate. I'm here to tell you how you
                         can make up to 200k-500k monthly with just your smart phone, from the comfort of your home -oh yeah!
                         I know, that sounds like something from a fairy tale but trust me this is as real as it gets.
                         The best part is anyone can do it. that said, there are various ways of making money and affiliate marketing
